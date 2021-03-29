@@ -2,8 +2,8 @@ Only Regex
 
 # Project Dependencies
 
----Developer Tools
+---Developer Tools  
 -Spring Boot DevTools
 
----Web
+---Web  
 -Spring Web
