@@ -15,29 +15,33 @@ public class MainRoute {
 	Boolean isValidEmail;
 
 	public MainRoute() {
+		emailRegex();
+	}
+
+	private void emailRegex() {
 		LOG.info("-------------------------- LOG START LOG ---------------------------");
-		
+
 		email = "^WWW.EVA874.COM@GMAIL.COM";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "robson.lee5@apoioprodesp.sp.gov.br";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "suelen4@x-cell.com.br";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "LUCIELEALVES13@GMAIL.COM";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "roberto.f.silva5@itau-unibanco.com.br";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "ADM.ULTRAPACK5@GMAIL.COM";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		email = "WWW.EVA874.COM@GMAIL.COM";
 		LOG.info("email {}, is a valid email? = {}", email, isValidEmail(email));
-		
+
 		LOG.info("-------------------------- LOG FINISH LOG --------------------------");
 	}
 
